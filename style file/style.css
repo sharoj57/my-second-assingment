@@ -1,0 +1,101 @@
+/* *{
+    margin: 0;
+} */
+
+
+/* Shared items */
+
+.display-flex{
+    display: flex;
+}
+
+/* nav-items */
+header{
+    width: 100%;
+    height: 37.24vw;
+    border: 1px solid blue;
+    background: black;
+}
+.nav-links li{
+    border-radius: 10px;
+    gap: 40px;
+    
+    font-size: 18px;
+    font-weight: 600;
+    list-style: none;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    justify-content: center;
+   
+}
+.nav-links a{
+    text-decoration: none;
+    color: white;
+    
+}
+.nav-links{
+gap: 36px;
+box-sizing: border-box;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 39px;
+width: 465px;
+height: 46px;
+align-items: center;
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+}
+.additional{
+    border:10px solid rgb(230, 83, 60);
+
+background: rgb(230, 83, 60);
+border-radius: 10px;
+
+}
+
+.nav-bar{
+    justify-content: space-around;
+    
+    
+}
+.brand-name{
+    font-size: 36px;
+font-weight: 800;
+color: rgb(230, 83, 60)
+}
+
+h3{
+    color: aliceblue;
+}
+
+/* header-section */
+.header-final{
+    width: 100%;
+height: 560px;
+align-items: center;
+justify-content: center;
+gap: 200px;
+}
+
+.header-title{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 78px;
+font-weight: 900;
+}
+.header-des{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+margin-top: -75px;
+}
+.btn{
+    width: 224px;
+height: 54px;
+border-radius: 42px;
+background: rgb(230, 83, 60);
+font-size: 18px;
+font-weight: 600;
+color: white;
+}
