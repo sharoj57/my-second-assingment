@@ -390,6 +390,91 @@ text-align: left;
     margin-top: 20px;
 }
 
+/* 1stpart
+ */
+ .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #2c2c2c; /* Darker background for the container */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.left-side {
+    width: 50%;
+    padding-right: 20px;
+}
+
+.left-side h2 {
+    font-size: 28px;
+    color: #ff4c4c; /* Bold red font for headings */
+    margin-bottom: 20px;
+}
+
+.left-side p {
+    font-size: 16px;
+    color: #ccc; /* Light gray text */
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.left-side .btn-group {
+    display: flex;
+    gap: 15px;
+}
+
+.left-side .btn-group button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff4c4c; /* Red button background */
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.left-side .btn-group button:hover {
+    background-color: #e43c3c; /* Darker red on hover */
+}
+
+.right-side {
+    width: 50%;
+    position: relative;
+}
+
+.right-side img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.right-side .btn-group {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    display: flex;
+    gap: 15px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.right-side .btn-group button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff4c4c; /* Red button background */
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.right-side .btn-group button:hover {
+    background-color: #e43c3c; /* Darker red on hover */
+}
 
 
 
