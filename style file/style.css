@@ -10,9 +10,12 @@
 }
 
 /* nav-items */
+body{
+    background-color: white;
+}
 header{
     width: 100%;
-    height: 37.24vw;
+    height: 40vw;
     border: 1px solid blue;
     background: black;
 }
@@ -180,12 +183,74 @@ letter-spacing: 0.5px;
 text-align: left;
 }
 
+#cyh{
+    display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+            text-align: center;
+        }
+        .content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            
+        }
 
-@media screen and (max-width: 576px) {
-    .navbar, 
-    .nav-links, 
-    .features,
-    .teams{
-        flex-direction: column;
-    }
-}
+        
+        h1 {
+            font-size: 36px;
+            color: #53d021;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            color: #666;
+            max-width: 600px;
+            margin-bottom: 40px;
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .image-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .image-item img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+
+        .image-item span {
+            font-size: 16px;
+            color: black; /* Font color white for the captions */
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .image-item p {
+            font-size: 14px;
+            color: #ccc; /* Lighter font color for the short paragraphs */
+            max-width: 150px;
+        }
+
+
+
